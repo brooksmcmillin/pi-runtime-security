@@ -1,6 +1,6 @@
 # Unofficial Pi 0.87.1 security rebuild
 
-This brooksmcmillin-owned distribution is an interim dependency-security artifact, not an official Pi release. Package identity/version remain `@earendil-works/pi-coding-agent@0.87.1` for compatibility. Install only a reviewed immutable commit archive; npm lock integrity must match it. No npm registry publication, global installation, or production deployment is implied.
+This brooksmcmillin-owned distribution is an interim dependency-security artifact, not an official Pi release. Package identity/version remain `@earendil-works/pi-coding-agent@0.87.1` for compatibility. Install only the reviewed npm-packed `.tgz` via an immutable raw commit URL; npm lock integrity must match it. No npm registry publication, global installation, or production deployment is implied.
 
 ## Scope and sources
 
@@ -11,6 +11,12 @@ This brooksmcmillin-owned distribution is an interim dependency-security artifac
 - Published CLI bundles brace expansion, so **a shrinkwrap-only edit is insufficient**. This artifact rebuilds the actual bundle as well as fixing the installed dependency graph (GHSA-6j4f-fj2g-mc7p, GHSA-qhr7-859c-m2p7, GHSA-q2hr-2g5m-vwhr).
 - Gitignored model data was restored from the exact published `@earendil-works/pi-ai@0.87.1`, then validated against the pinned source's manifest/structure. No live model-catalog regeneration. Original npm pack metadata and rebuilt pack integrity are in `provenance/`.
 - Original upstream license/copyright retained in `LICENSE`. Original upstream README/docs describe Pi itself, not this unofficial artifact's release status.
+
+## Consumer transport
+
+Use `https://raw.githubusercontent.com/brooksmcmillin/pi-runtime-security/<reviewed-commit>/artifacts/pi-coding-agent-0.87.1-security.tgz`. The payload exactly matches the tested npm pack integrity in `provenance/patched-npm-pack.json`.
+
+Do not use GitHub's repository source archive as an npm dependency: npm ignored its shrinkwrap and resolved newer transitive packages during integration. The actual npm tarball has the required `package/npm-shrinkwrap.json` layout. Re-resolve consumers in a clean temporary dependency factory when changing same-version sources; compare the resulting graph before adopting it, since old nested lock entries may otherwise persist.
 
 ## Reproduce
 
