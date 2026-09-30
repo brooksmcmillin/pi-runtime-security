@@ -1,0 +1,3876 @@
+[
+  {
+    "id": "@earendil-works/pi-ai@0.87.1",
+    "name": "@earendil-works/pi-ai",
+    "version": "0.87.1",
+    "size": 838330,
+    "unpackedSize": 4671681,
+    "shasum": "7d1f174120d5e6d33f301503677ec3281f217e2a",
+    "integrity": "sha512-X/3PfQBnnoeVdO9Cv8zHghUMglzlgNZYGNzoPnbRoGnHl3Rw3TlA2UKSUB7BRHUOxMryHXYa8dnjWZlbRheDZA==",
+    "filename": "earendil-works-pi-ai-0.87.1.tgz",
+    "files": [
+      {
+        "path": "README.md",
+        "size": 89698,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/anthropic-messages.d.ts",
+        "size": 3426,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/anthropic-messages.d.ts.map",
+        "size": 57749,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/anthropic-messages.js",
+        "size": 53674,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/anthropic-messages.js.map",
+        "size": 99477,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/anthropic-messages.lazy.d.ts",
+        "size": 171,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/anthropic-messages.lazy.d.ts.map",
+        "size": 457,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/anthropic-messages.lazy.js",
+        "size": 180,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/anthropic-messages.lazy.js.map",
+        "size": 521,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/azure-openai-responses.d.ts",
+        "size": 890,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/azure-openai-responses.d.ts.map",
+        "size": 14059,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/azure-openai-responses.js",
+        "size": 11723,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/azure-openai-responses.js.map",
+        "size": 23456,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/azure-openai-responses.lazy.d.ts",
+        "size": 178,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/azure-openai-responses.lazy.d.ts.map",
+        "size": 472,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/azure-openai-responses.lazy.js",
+        "size": 191,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/azure-openai-responses.lazy.js.map",
+        "size": 536,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/bedrock-converse-stream.d.ts",
+        "size": 2160,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/bedrock-converse-stream.d.ts.map",
+        "size": 54371,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/bedrock-converse-stream.js",
+        "size": 50144,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/bedrock-converse-stream.js.map",
+        "size": 90220,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/bedrock-converse-stream.lazy.d.ts",
+        "size": 480,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/bedrock-converse-stream.lazy.d.ts.map",
+        "size": 1526,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/bedrock-converse-stream.lazy.js",
+        "size": 1521,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/bedrock-converse-stream.lazy.js.map",
+        "size": 1945,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/cloudflare-ai-binding.d.ts",
+        "size": 4160,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/cloudflare-ai-binding.d.ts.map",
+        "size": 5294,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/cloudflare-ai-binding.js",
+        "size": 3927,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/cloudflare-ai-binding.js.map",
+        "size": 5364,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/cloudflare.d.ts",
+        "size": 907,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/cloudflare.d.ts.map",
+        "size": 1202,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/cloudflare.js",
+        "size": 873,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/cloudflare.js.map",
+        "size": 1244,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/constrained-sampling.d.ts",
+        "size": 1356,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/constrained-sampling.d.ts.map",
+        "size": 11202,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/constrained-sampling.js",
+        "size": 9216,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/constrained-sampling.js.map",
+        "size": 18652,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/github-copilot-headers.d.ts",
+        "size": 397,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/github-copilot-headers.d.ts.map",
+        "size": 1764,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/github-copilot-headers.js",
+        "size": 1133,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/github-copilot-headers.js.map",
+        "size": 2505,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-generative-ai.d.ts",
+        "size": 603,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-generative-ai.d.ts.map",
+        "size": 17606,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-generative-ai.js",
+        "size": 17464,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-generative-ai.js.map",
+        "size": 30489,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-generative-ai.lazy.d.ts",
+        "size": 174,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-generative-ai.lazy.d.ts.map",
+        "size": 464,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-generative-ai.lazy.js",
+        "size": 185,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-generative-ai.lazy.js.map",
+        "size": 528,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-shared.d.ts",
+        "size": 5520,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-shared.d.ts.map",
+        "size": 21897,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-shared.js",
+        "size": 19208,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-shared.js.map",
+        "size": 32256,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-vertex.d.ts",
+        "size": 639,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-vertex.d.ts.map",
+        "size": 20274,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-vertex.js",
+        "size": 19695,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-vertex.js.map",
+        "size": 35092,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-vertex.lazy.d.ts",
+        "size": 161,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-vertex.lazy.d.ts.map",
+        "size": 435,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-vertex.lazy.js",
+        "size": 165,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/google-vertex.lazy.js.map",
+        "size": 499,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/lazy.d.ts",
+        "size": 984,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/lazy.d.ts.map",
+        "size": 4042,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/lazy.js",
+        "size": 2619,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/lazy.js.map",
+        "size": 6215,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/mistral-conversations.d.ts",
+        "size": 874,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/mistral-conversations.d.ts.map",
+        "size": 34772,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/mistral-conversations.js",
+        "size": 30537,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/mistral-conversations.js.map",
+        "size": 62864,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/mistral-conversations.lazy.d.ts",
+        "size": 177,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/mistral-conversations.lazy.d.ts.map",
+        "size": 469,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/mistral-conversations.lazy.js",
+        "size": 189,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/mistral-conversations.lazy.js.map",
+        "size": 533,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-codex-responses.d.ts",
+        "size": 1612,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-codex-responses.d.ts.map",
+        "size": 61988,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-codex-responses.js",
+        "size": 54758,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-codex-responses.js.map",
+        "size": 108421,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-codex-responses.lazy.d.ts",
+        "size": 178,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-codex-responses.lazy.d.ts.map",
+        "size": 472,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-codex-responses.lazy.js",
+        "size": 191,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-codex-responses.lazy.js.map",
+        "size": 536,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-completions.d.ts",
+        "size": 2088,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-completions.d.ts.map",
+        "size": 71109,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-completions.js",
+        "size": 64355,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-completions.js.map",
+        "size": 119120,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-completions.lazy.d.ts",
+        "size": 171,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-completions.lazy.d.ts.map",
+        "size": 457,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-completions.lazy.js",
+        "size": 180,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-completions.lazy.js.map",
+        "size": 521,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-prompt-cache.d.ts",
+        "size": 207,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-prompt-cache.d.ts.map",
+        "size": 640,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-prompt-cache.js",
+        "size": 392,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-prompt-cache.js.map",
+        "size": 866,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses-shared.d.ts",
+        "size": 2142,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses-shared.d.ts.map",
+        "size": 35089,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses-shared.js",
+        "size": 31275,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses-shared.js.map",
+        "size": 60251,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses.d.ts",
+        "size": 798,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses.d.ts.map",
+        "size": 16206,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses.js",
+        "size": 13439,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses.js.map",
+        "size": 27158,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses.lazy.d.ts",
+        "size": 167,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses.lazy.d.ts.map",
+        "size": 449,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses.lazy.js",
+        "size": 174,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openai-responses.lazy.js.map",
+        "size": 513,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openrouter-images.d.ts",
+        "size": 202,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openrouter-images.d.ts.map",
+        "size": 6999,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openrouter-images.js",
+        "size": 5232,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openrouter-images.js.map",
+        "size": 11950,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openrouter-images.lazy.d.ts",
+        "size": 167,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openrouter-images.lazy.d.ts.map",
+        "size": 591,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openrouter-images.lazy.js",
+        "size": 235,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/openrouter-images.lazy.js.map",
+        "size": 729,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/pi-messages.d.ts",
+        "size": 3162,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/pi-messages.d.ts.map",
+        "size": 17624,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/pi-messages.js",
+        "size": 12309,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/pi-messages.js.map",
+        "size": 26331,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/pi-messages.lazy.d.ts",
+        "size": 157,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/pi-messages.lazy.d.ts.map",
+        "size": 427,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/pi-messages.lazy.js",
+        "size": 159,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/pi-messages.lazy.js.map",
+        "size": 491,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/simple-options.d.ts",
+        "size": 1341,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/simple-options.d.ts.map",
+        "size": 4587,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/simple-options.js",
+        "size": 2998,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/simple-options.js.map",
+        "size": 6144,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/transform-messages.d.ts",
+        "size": 559,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/transform-messages.d.ts.map",
+        "size": 9021,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/transform-messages.js",
+        "size": 8908,
+        "mode": 420
+      },
+      {
+        "path": "dist/api/transform-messages.js.map",
+        "size": 14716,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/context.d.ts",
+        "size": 295,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/context.d.ts.map",
+        "size": 1699,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/context.js",
+        "size": 1666,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/context.js.map",
+        "size": 2589,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/credential-store.d.ts",
+        "size": 1031,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/credential-store.d.ts.map",
+        "size": 3351,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/credential-store.js",
+        "size": 2045,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/credential-store.js.map",
+        "size": 4666,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/helpers.d.ts",
+        "size": 972,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/helpers.d.ts.map",
+        "size": 2685,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/helpers.js",
+        "size": 2092,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/helpers.js.map",
+        "size": 3896,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/anthropic.d.ts",
+        "size": 330,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/anthropic.d.ts.map",
+        "size": 12482,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/anthropic.js",
+        "size": 11509,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/anthropic.js.map",
+        "size": 22572,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/device-code.d.ts",
+        "size": 797,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/device-code.d.ts.map",
+        "size": 4601,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/device-code.js",
+        "size": 3269,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/device-code.js.map",
+        "size": 6491,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/github-copilot.d.ts",
+        "size": 179,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/github-copilot.d.ts.map",
+        "size": 17372,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/github-copilot.js",
+        "size": 15679,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/github-copilot.js.map",
+        "size": 30442,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/kimi-coding.d.ts",
+        "size": 391,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/kimi-coding.d.ts.map",
+        "size": 10850,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/kimi-coding.js",
+        "size": 10252,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/kimi-coding.js.map",
+        "size": 19359,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/load.d.ts",
+        "size": 1349,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/load.d.ts.map",
+        "size": 4395,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/load.js",
+        "size": 2696,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/load.js.map",
+        "size": 5360,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/meta.d.ts",
+        "size": 868,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/meta.d.ts.map",
+        "size": 8520,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/meta.js",
+        "size": 7975,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/meta.js.map",
+        "size": 14436,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/oauth-page.d.ts",
+        "size": 190,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/oauth-page.d.ts.map",
+        "size": 3619,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/oauth-page.js",
+        "size": 3114,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/oauth-page.js.map",
+        "size": 4565,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/openai-codex.d.ts",
+        "size": 322,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/openai-codex.d.ts.map",
+        "size": 18309,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/openai-codex.js",
+        "size": 16962,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/openai-codex.js.map",
+        "size": 33321,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/openrouter.d.ts",
+        "size": 687,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/openrouter.d.ts.map",
+        "size": 11806,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/openrouter.js",
+        "size": 10765,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/openrouter.js.map",
+        "size": 21211,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/pkce.d.ts",
+        "size": 335,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/pkce.d.ts.map",
+        "size": 1321,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/pkce.js",
+        "size": 1003,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/pkce.js.map",
+        "size": 2044,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/radius.d.ts",
+        "size": 631,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/radius.d.ts.map",
+        "size": 13457,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/radius.js",
+        "size": 12158,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/radius.js.map",
+        "size": 23716,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/xai.d.ts",
+        "size": 160,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/xai.d.ts.map",
+        "size": 8546,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/xai.js",
+        "size": 7503,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/oauth/xai.js.map",
+        "size": 14913,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/resolve.d.ts",
+        "size": 1217,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/resolve.d.ts.map",
+        "size": 8234,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/resolve.js",
+        "size": 6048,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/resolve.js.map",
+        "size": 12535,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/types.d.ts",
+        "size": 8694,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/types.d.ts.map",
+        "size": 12966,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/types.js",
+        "size": 44,
+        "mode": 420
+      },
+      {
+        "path": "dist/auth/types.js.map",
+        "size": 8838,
+        "mode": 420
+      },
+      {
+        "path": "dist/bedrock-provider.d.ts",
+        "size": 354,
+        "mode": 420
+      },
+      {
+        "path": "dist/bedrock-provider.d.ts.map",
+        "size": 332,
+        "mode": 420
+      },
+      {
+        "path": "dist/bedrock-provider.js",
+        "size": 189,
+        "mode": 420
+      },
+      {
+        "path": "dist/bedrock-provider.js.map",
+        "size": 411,
+        "mode": 420
+      },
+      {
+        "path": "dist/bun-oauth.d.ts",
+        "size": 172,
+        "mode": 420
+      },
+      {
+        "path": "dist/bun-oauth.d.ts.map",
+        "size": 1226,
+        "mode": 420
+      },
+      {
+        "path": "dist/bun-oauth.js",
+        "size": 1070,
+        "mode": 420
+      },
+      {
+        "path": "dist/bun-oauth.js.map",
+        "size": 1934,
+        "mode": 420
+      },
+      {
+        "path": "dist/cli.d.ts",
+        "size": 64,
+        "mode": 420
+      },
+      {
+        "path": "dist/cli.d.ts.map",
+        "size": 4819,
+        "mode": 420
+      },
+      {
+        "path": "dist/cli.js",
+        "size": 4593,
+        "mode": 420
+      },
+      {
+        "path": "dist/cli.js.map",
+        "size": 9638,
+        "mode": 420
+      },
+      {
+        "path": "dist/compat.d.ts",
+        "size": 4438,
+        "mode": 420
+      },
+      {
+        "path": "dist/compat.d.ts.map",
+        "size": 14044,
+        "mode": 420
+      },
+      {
+        "path": "dist/compat.js",
+        "size": 8872,
+        "mode": 420
+      },
+      {
+        "path": "dist/compat.js.map",
+        "size": 18742,
+        "mode": 420
+      },
+      {
+        "path": "dist/compat/extension-oauth-types.d.ts",
+        "size": 1235,
+        "mode": 420
+      },
+      {
+        "path": "dist/compat/extension-oauth-types.d.ts.map",
+        "size": 2390,
+        "mode": 420
+      },
+      {
+        "path": "dist/compat/extension-oauth-types.js",
+        "size": 60,
+        "mode": 420
+      },
+      {
+        "path": "dist/compat/extension-oauth-types.js.map",
+        "size": 1364,
+        "mode": 420
+      },
+      {
+        "path": "dist/env-api-keys.d.ts",
+        "size": 1164,
+        "mode": 420
+      },
+      {
+        "path": "dist/env-api-keys.d.ts.map",
+        "size": 8895,
+        "mode": 420
+      },
+      {
+        "path": "dist/env-api-keys.js",
+        "size": 7410,
+        "mode": 420
+      },
+      {
+        "path": "dist/env-api-keys.js.map",
+        "size": 13154,
+        "mode": 420
+      },
+      {
+        "path": "dist/image-models.d.ts",
+        "size": 907,
+        "mode": 420
+      },
+      {
+        "path": "dist/image-models.d.ts.map",
+        "size": 2628,
+        "mode": 420
+      },
+      {
+        "path": "dist/image-models.generated.d.ts",
+        "size": 24863,
+        "mode": 420
+      },
+      {
+        "path": "dist/image-models.generated.d.ts.map",
+        "size": 27788,
+        "mode": 420
+      },
+      {
+        "path": "dist/image-models.generated.js",
+        "size": 27538,
+        "mode": 420
+      },
+      {
+        "path": "dist/image-models.generated.js.map",
+        "size": 44414,
+        "mode": 420
+      },
+      {
+        "path": "dist/image-models.js",
+        "size": 811,
+        "mode": 420
+      },
+      {
+        "path": "dist/image-models.js.map",
+        "size": 2780,
+        "mode": 420
+      },
+      {
+        "path": "dist/images-api-registry.d.ts",
+        "size": 890,
+        "mode": 420
+      },
+      {
+        "path": "dist/images-api-registry.d.ts.map",
+        "size": 2581,
+        "mode": 420
+      },
+      {
+        "path": "dist/images-api-registry.js",
+        "size": 764,
+        "mode": 420
+      },
+      {
+        "path": "dist/images-api-registry.js.map",
+        "size": 2604,
+        "mode": 420
+      },
+      {
+        "path": "dist/images-models.d.ts",
+        "size": 4671,
+        "mode": 420
+      },
+      {
+        "path": "dist/images-models.d.ts.map",
+        "size": 12292,
+        "mode": 420
+      },
+      {
+        "path": "dist/images-models.js",
+        "size": 5350,
+        "mode": 420
+      },
+      {
+        "path": "dist/images-models.js.map",
+        "size": 15235,
+        "mode": 420
+      },
+      {
+        "path": "dist/images.d.ts",
+        "size": 372,
+        "mode": 420
+      },
+      {
+        "path": "dist/images.d.ts.map",
+        "size": 1157,
+        "mode": 420
+      },
+      {
+        "path": "dist/images.js",
+        "size": 544,
+        "mode": 420
+      },
+      {
+        "path": "dist/images.js.map",
+        "size": 1369,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.d.ts",
+        "size": 2134,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.d.ts.map",
+        "size": 4018,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.js",
+        "size": 951,
+        "mode": 420
+      },
+      {
+        "path": "dist/index.js.map",
+        "size": 3291,
+        "mode": 420
+      },
+      {
+        "path": "dist/legacy-api-aliases.d.ts",
+        "size": 4435,
+        "mode": 420
+      },
+      {
+        "path": "dist/legacy-api-aliases.d.ts.map",
+        "size": 7564,
+        "mode": 420
+      },
+      {
+        "path": "dist/legacy-api-aliases.js",
+        "size": 4329,
+        "mode": 420
+      },
+      {
+        "path": "dist/legacy-api-aliases.js.map",
+        "size": 8120,
+        "mode": 420
+      },
+      {
+        "path": "dist/model-catalog.d.ts",
+        "size": 902,
+        "mode": 420
+      },
+      {
+        "path": "dist/model-catalog.d.ts.map",
+        "size": 1979,
+        "mode": 420
+      },
+      {
+        "path": "dist/model-catalog.js",
+        "size": 156,
+        "mode": 420
+      },
+      {
+        "path": "dist/model-catalog.js.map",
+        "size": 1251,
+        "mode": 420
+      },
+      {
+        "path": "dist/models-store.d.ts",
+        "size": 1390,
+        "mode": 420
+      },
+      {
+        "path": "dist/models-store.d.ts.map",
+        "size": 2913,
+        "mode": 420
+      },
+      {
+        "path": "dist/models-store.js",
+        "size": 587,
+        "mode": 420
+      },
+      {
+        "path": "dist/models-store.js.map",
+        "size": 2526,
+        "mode": 420
+      },
+      {
+        "path": "dist/models.d.ts",
+        "size": 11793,
+        "mode": 420
+      },
+      {
+        "path": "dist/models.d.ts.map",
+        "size": 44623,
+        "mode": 420
+      },
+      {
+        "path": "dist/models.generated.d.ts",
+        "size": 5351,
+        "mode": 420
+      },
+      {
+        "path": "dist/models.generated.d.ts.map",
+        "size": 11023,
+        "mode": 420
+      },
+      {
+        "path": "dist/models.generated.js",
+        "size": 4813,
+        "mode": 420
+      },
+      {
+        "path": "dist/models.generated.js.map",
+        "size": 10231,
+        "mode": 420
+      },
+      {
+        "path": "dist/models.js",
+        "size": 25419,
+        "mode": 420
+      },
+      {
+        "path": "dist/models.js.map",
+        "size": 63083,
+        "mode": 420
+      },
+      {
+        "path": "dist/oauth.d.ts",
+        "size": 309,
+        "mode": 420
+      },
+      {
+        "path": "dist/oauth.d.ts.map",
+        "size": 555,
+        "mode": 420
+      },
+      {
+        "path": "dist/oauth.js",
+        "size": 44,
+        "mode": 420
+      },
+      {
+        "path": "dist/oauth.js.map",
+        "size": 424,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/all.d.ts",
+        "size": 2064,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/all.d.ts.map",
+        "size": 8159,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/all.js",
+        "size": 5390,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/all.js.map",
+        "size": 10835,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/amazon-bedrock.d.ts",
+        "size": 176,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/amazon-bedrock.d.ts.map",
+        "size": 3968,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/amazon-bedrock.js",
+        "size": 3894,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/amazon-bedrock.js.map",
+        "size": 6788,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/amazon-bedrock.models.d.ts",
+        "size": 248,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/amazon-bedrock.models.d.ts.map",
+        "size": 752,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/amazon-bedrock.models.js",
+        "size": 390,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/amazon-bedrock.models.js.map",
+        "size": 804,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/ant-ling.d.ts",
+        "size": 159,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/ant-ling.d.ts.map",
+        "size": 865,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/ant-ling.js",
+        "size": 605,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/ant-ling.js.map",
+        "size": 1230,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/ant-ling.models.d.ts",
+        "size": 224,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/ant-ling.models.d.ts.map",
+        "size": 712,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/ant-ling.models.js",
+        "size": 366,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/ant-ling.models.js.map",
+        "size": 764,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/anthropic.d.ts",
+        "size": 162,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/anthropic.d.ts.map",
+        "size": 2399,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/anthropic.js",
+        "size": 2251,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/anthropic.js.map",
+        "size": 4134,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/anthropic.models.d.ts",
+        "size": 228,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/anthropic.models.d.ts.map",
+        "size": 720,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/anthropic.models.js",
+        "size": 370,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/anthropic.models.js.map",
+        "size": 772,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/azure-openai-responses.d.ts",
+        "size": 190,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/azure-openai-responses.d.ts.map",
+        "size": 943,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/azure-openai-responses.js",
+        "size": 662,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/azure-openai-responses.js.map",
+        "size": 1292,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/azure-openai-responses.models.d.ts",
+        "size": 280,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/azure-openai-responses.models.d.ts.map",
+        "size": 800,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/azure-openai-responses.models.js",
+        "size": 422,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/azure-openai-responses.models.js.map",
+        "size": 852,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/baseten.d.ts",
+        "size": 158,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/baseten.d.ts.map",
+        "size": 860,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/baseten.js",
+        "size": 601,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/baseten.js.map",
+        "size": 1224,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/baseten.models.d.ts",
+        "size": 220,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/baseten.models.d.ts.map",
+        "size": 706,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/baseten.models.js",
+        "size": 362,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/baseten.models.js.map",
+        "size": 758,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cerebras.d.ts",
+        "size": 160,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cerebras.d.ts.map",
+        "size": 867,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cerebras.js",
+        "size": 605,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cerebras.js.map",
+        "size": 1232,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cerebras.models.d.ts",
+        "size": 224,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cerebras.models.d.ts.map",
+        "size": 712,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cerebras.models.js",
+        "size": 366,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cerebras.models.js.map",
+        "size": 764,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-ai-gateway.d.ts",
+        "size": 293,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-ai-gateway.d.ts.map",
+        "size": 1817,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-ai-gateway.js",
+        "size": 1363,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-ai-gateway.js.map",
+        "size": 2399,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-ai-gateway.models.d.ts",
+        "size": 276,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-ai-gateway.models.d.ts.map",
+        "size": 794,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-ai-gateway.models.js",
+        "size": 418,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-ai-gateway.models.js.map",
+        "size": 846,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-auth.d.ts",
+        "size": 223,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-auth.d.ts.map",
+        "size": 4133,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-auth.js",
+        "size": 3655,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-auth.js.map",
+        "size": 7077,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-stream.d.ts",
+        "size": 492,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-stream.d.ts.map",
+        "size": 1650,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-stream.js",
+        "size": 1051,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-stream.js.map",
+        "size": 2241,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-workers-ai.d.ts",
+        "size": 184,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-workers-ai.d.ts.map",
+        "size": 983,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-workers-ai.js",
+        "size": 708,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-workers-ai.js.map",
+        "size": 1366,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-workers-ai.models.d.ts",
+        "size": 276,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-workers-ai.models.d.ts.map",
+        "size": 794,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-workers-ai.models.js",
+        "size": 418,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/cloudflare-workers-ai.models.js.map",
+        "size": 846,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/.manifest.json",
+        "size": 3696,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/amazon-bedrock.json",
+        "size": 81727,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/ant-ling.json",
+        "size": 1635,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/anthropic.json",
+        "size": 9775,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/azure-openai-responses.json",
+        "size": 18224,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/baseten.json",
+        "size": 16699,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/cerebras.json",
+        "size": 1070,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/cloudflare-ai-gateway.json",
+        "size": 32869,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/cloudflare-workers-ai.json",
+        "size": 11825,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/deepseek.json",
+        "size": 1349,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/fireworks.json",
+        "size": 23485,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/github-copilot.json",
+        "size": 25130,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/google-vertex.json",
+        "size": 7559,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/google.json",
+        "size": 12956,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/groq.json",
+        "size": 3221,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/huggingface.json",
+        "size": 34989,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/kimi-coding.json",
+        "size": 2206,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/meta.json",
+        "size": 2724,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/minimax-cn.json",
+        "size": 1070,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/minimax.json",
+        "size": 1055,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/mistral.json",
+        "size": 11499,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/moonshotai-cn.json",
+        "size": 2805,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/moonshotai.json",
+        "size": 2793,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/nvidia.json",
+        "size": 11677,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/openai-codex.json",
+        "size": 5542,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/openai.json",
+        "size": 25783,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/opencode-go.json",
+        "size": 16620,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/opencode.json",
+        "size": 40674,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/openrouter.json",
+        "size": 225960,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/qwen-token-plan-cn.json",
+        "size": 11830,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/qwen-token-plan-individual.json",
+        "size": 5611,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/qwen-token-plan.json",
+        "size": 11850,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/radius.json",
+        "size": 19725,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/together.json",
+        "size": 13833,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/vercel-ai-gateway.json",
+        "size": 110171,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/xai.json",
+        "size": 2533,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/xiaomi-token-plan-ams.json",
+        "size": 2080,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/xiaomi-token-plan-cn.json",
+        "size": 2072,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/xiaomi-token-plan-sgp.json",
+        "size": 2080,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/xiaomi.json",
+        "size": 3030,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/zai-coding-cn.json",
+        "size": 2596,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/data/zai.json",
+        "size": 4088,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/deepseek.d.ts",
+        "size": 160,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/deepseek.d.ts.map",
+        "size": 865,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/deepseek.js",
+        "size": 603,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/deepseek.js.map",
+        "size": 1230,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/deepseek.models.d.ts",
+        "size": 224,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/deepseek.models.d.ts.map",
+        "size": 712,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/deepseek.models.js",
+        "size": 366,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/deepseek.models.js.map",
+        "size": 764,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/faux.d.ts",
+        "size": 4206,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/faux.d.ts.map",
+        "size": 26882,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/faux.js",
+        "size": 19791,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/faux.js.map",
+        "size": 43818,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/fireworks.d.ts",
+        "size": 185,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/fireworks.d.ts.map",
+        "size": 1095,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/fireworks.js",
+        "size": 801,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/fireworks.js.map",
+        "size": 1549,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/fireworks.models.d.ts",
+        "size": 228,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/fireworks.models.d.ts.map",
+        "size": 720,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/fireworks.models.js",
+        "size": 370,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/fireworks.models.js.map",
+        "size": 772,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/github-copilot.d.ts",
+        "size": 215,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/github-copilot.d.ts.map",
+        "size": 1939,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/github-copilot.js",
+        "size": 1667,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/github-copilot.js.map",
+        "size": 3108,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/github-copilot.models.d.ts",
+        "size": 248,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/github-copilot.models.d.ts.map",
+        "size": 752,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/github-copilot.models.js",
+        "size": 390,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/github-copilot.models.js.map",
+        "size": 804,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google-vertex.d.ts",
+        "size": 164,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google-vertex.d.ts.map",
+        "size": 4401,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google-vertex.js",
+        "size": 4282,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google-vertex.js.map",
+        "size": 7476,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google-vertex.models.d.ts",
+        "size": 244,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google-vertex.models.d.ts.map",
+        "size": 744,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google-vertex.models.js",
+        "size": 386,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google-vertex.models.js.map",
+        "size": 796,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google.d.ts",
+        "size": 158,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google.d.ts.map",
+        "size": 873,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google.js",
+        "size": 613,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google.js.map",
+        "size": 1237,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google.models.d.ts",
+        "size": 216,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google.models.d.ts.map",
+        "size": 700,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google.models.js",
+        "size": 358,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/google.models.js.map",
+        "size": 752,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/groq.d.ts",
+        "size": 152,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/groq.d.ts.map",
+        "size": 829,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/groq.js",
+        "size": 573,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/groq.js.map",
+        "size": 1189,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/groq.models.d.ts",
+        "size": 208,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/groq.models.d.ts.map",
+        "size": 688,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/groq.models.js",
+        "size": 350,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/groq.models.js.map",
+        "size": 740,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/huggingface.d.ts",
+        "size": 166,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/huggingface.d.ts.map",
+        "size": 892,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/huggingface.js",
+        "size": 627,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/huggingface.js.map",
+        "size": 1260,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/huggingface.models.d.ts",
+        "size": 236,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/huggingface.models.d.ts.map",
+        "size": 732,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/huggingface.models.js",
+        "size": 378,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/huggingface.models.js.map",
+        "size": 784,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/images/register-builtins.d.ts",
+        "size": 282,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/images/register-builtins.d.ts.map",
+        "size": 2165,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/images/register-builtins.js",
+        "size": 1220,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/images/register-builtins.js.map",
+        "size": 3031,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/kimi-coding.d.ts",
+        "size": 165,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/kimi-coding.d.ts.map",
+        "size": 1174,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/kimi-coding.js",
+        "size": 947,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/kimi-coding.js.map",
+        "size": 1726,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/kimi-coding.models.d.ts",
+        "size": 236,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/kimi-coding.models.d.ts.map",
+        "size": 732,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/kimi-coding.models.js",
+        "size": 378,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/kimi-coding.models.js.map",
+        "size": 784,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/meta.d.ts",
+        "size": 150,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/meta.d.ts.map",
+        "size": 1089,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/meta.js",
+        "size": 873,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/meta.js.map",
+        "size": 1631,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/meta.models.d.ts",
+        "size": 208,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/meta.models.d.ts.map",
+        "size": 688,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/meta.models.js",
+        "size": 350,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/meta.models.js.map",
+        "size": 740,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax-cn.d.ts",
+        "size": 163,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax-cn.d.ts.map",
+        "size": 894,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax-cn.js",
+        "size": 630,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax-cn.js.map",
+        "size": 1264,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax-cn.models.d.ts",
+        "size": 232,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax-cn.models.d.ts.map",
+        "size": 726,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax-cn.models.js",
+        "size": 374,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax-cn.models.js.map",
+        "size": 778,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax.d.ts",
+        "size": 158,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax.d.ts.map",
+        "size": 861,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax.js",
+        "size": 602,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax.js.map",
+        "size": 1225,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax.models.d.ts",
+        "size": 220,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax.models.d.ts.map",
+        "size": 706,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax.models.js",
+        "size": 362,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/minimax.models.js.map",
+        "size": 758,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/mistral.d.ts",
+        "size": 161,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/mistral.d.ts.map",
+        "size": 863,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/mistral.js",
+        "size": 601,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/mistral.js.map",
+        "size": 1227,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/mistral.models.d.ts",
+        "size": 220,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/mistral.models.d.ts.map",
+        "size": 706,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/mistral.models.js",
+        "size": 362,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/mistral.models.js.map",
+        "size": 758,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai-cn.d.ts",
+        "size": 169,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai-cn.d.ts.map",
+        "size": 910,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai-cn.js",
+        "size": 643,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai-cn.js.map",
+        "size": 1282,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai-cn.models.d.ts",
+        "size": 244,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai-cn.models.d.ts.map",
+        "size": 744,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai-cn.models.js",
+        "size": 386,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai-cn.models.js.map",
+        "size": 796,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai.d.ts",
+        "size": 164,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai.d.ts.map",
+        "size": 887,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai.js",
+        "size": 623,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai.js.map",
+        "size": 1257,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai.models.d.ts",
+        "size": 232,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai.models.d.ts.map",
+        "size": 726,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai.models.js",
+        "size": 374,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/moonshotai.models.js.map",
+        "size": 778,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/nvidia.d.ts",
+        "size": 156,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/nvidia.d.ts.map",
+        "size": 854,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/nvidia.js",
+        "size": 596,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/nvidia.js.map",
+        "size": 1218,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/nvidia.models.d.ts",
+        "size": 216,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/nvidia.models.d.ts.map",
+        "size": 700,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/nvidia.models.js",
+        "size": 358,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/nvidia.models.js.map",
+        "size": 752,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai-codex.d.ts",
+        "size": 171,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai-codex.d.ts.map",
+        "size": 1066,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai-codex.js",
+        "size": 829,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai-codex.js.map",
+        "size": 1527,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai-codex.models.d.ts",
+        "size": 240,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai-codex.models.d.ts.map",
+        "size": 738,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai-codex.models.js",
+        "size": 382,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai-codex.models.js.map",
+        "size": 790,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai.d.ts",
+        "size": 154,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai.d.ts.map",
+        "size": 836,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai.js",
+        "size": 580,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai.js.map",
+        "size": 1200,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai.models.d.ts",
+        "size": 216,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai.models.d.ts.map",
+        "size": 700,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai.models.js",
+        "size": 358,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openai.models.js.map",
+        "size": 752,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-go.d.ts",
+        "size": 209,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-go.d.ts.map",
+        "size": 1436,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-go.js",
+        "size": 1029,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-go.js.map",
+        "size": 2028,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-go.models.d.ts",
+        "size": 236,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-go.models.d.ts.map",
+        "size": 732,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-go.models.js",
+        "size": 378,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-go.models.js.map",
+        "size": 784,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-headers.d.ts",
+        "size": 277,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-headers.d.ts.map",
+        "size": 1403,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-headers.js",
+        "size": 939,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode-headers.js.map",
+        "size": 2169,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode.d.ts",
+        "size": 229,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode.d.ts.map",
+        "size": 1556,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode.js",
+        "size": 1178,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode.js.map",
+        "size": 2220,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode.models.d.ts",
+        "size": 224,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode.models.d.ts.map",
+        "size": 712,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode.models.js",
+        "size": 366,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/opencode.models.js.map",
+        "size": 764,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter-images.d.ts",
+        "size": 174,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter-images.d.ts.map",
+        "size": 1105,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter-images.js",
+        "size": 892,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter-images.js.map",
+        "size": 1642,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter.d.ts",
+        "size": 187,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter.d.ts.map",
+        "size": 1348,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter.js",
+        "size": 1084,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter.js.map",
+        "size": 1965,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter.models.d.ts",
+        "size": 232,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter.models.d.ts.map",
+        "size": 726,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter.models.js",
+        "size": 374,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/openrouter.models.js.map",
+        "size": 778,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-cn.d.ts",
+        "size": 177,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-cn.d.ts.map",
+        "size": 1004,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-cn.js",
+        "size": 732,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-cn.js.map",
+        "size": 1378,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-cn.models.d.ts",
+        "size": 264,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-cn.models.d.ts.map",
+        "size": 776,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-cn.models.js",
+        "size": 406,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-cn.models.js.map",
+        "size": 828,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-individual.d.ts",
+        "size": 193,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-individual.d.ts.map",
+        "size": 1077,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-individual.js",
+        "size": 797,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-individual.js.map",
+        "size": 1451,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-individual.models.d.ts",
+        "size": 296,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-individual.models.d.ts.map",
+        "size": 824,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-individual.models.js",
+        "size": 438,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan-individual.models.js.map",
+        "size": 876,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan.d.ts",
+        "size": 172,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan.d.ts.map",
+        "size": 979,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan.js",
+        "size": 710,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan.js.map",
+        "size": 1353,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan.models.d.ts",
+        "size": 252,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan.models.d.ts.map",
+        "size": 758,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan.models.js",
+        "size": 394,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/qwen-token-plan.models.js.map",
+        "size": 810,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius-config.d.ts",
+        "size": 1269,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius-config.d.ts.map",
+        "size": 4797,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius-config.js",
+        "size": 2541,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius-config.js.map",
+        "size": 6348,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius.d.ts",
+        "size": 361,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius.d.ts.map",
+        "size": 3914,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius.js",
+        "size": 3567,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius.js.map",
+        "size": 6798,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius.models.d.ts",
+        "size": 216,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius.models.d.ts.map",
+        "size": 700,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius.models.js",
+        "size": 358,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/radius.models.js.map",
+        "size": 752,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/together.d.ts",
+        "size": 160,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/together.d.ts.map",
+        "size": 867,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/together.js",
+        "size": 605,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/together.js.map",
+        "size": 1232,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/together.models.d.ts",
+        "size": 224,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/together.models.d.ts.map",
+        "size": 712,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/together.models.js",
+        "size": 366,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/together.models.js.map",
+        "size": 764,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/vercel-ai-gateway.d.ts",
+        "size": 176,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/vercel-ai-gateway.d.ts.map",
+        "size": 950,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/vercel-ai-gateway.js",
+        "size": 679,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/vercel-ai-gateway.js.map",
+        "size": 1324,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/vercel-ai-gateway.models.d.ts",
+        "size": 260,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/vercel-ai-gateway.models.d.ts.map",
+        "size": 770,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/vercel-ai-gateway.models.js",
+        "size": 402,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/vercel-ai-gateway.models.js.map",
+        "size": 822,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xai.d.ts",
+        "size": 148,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xai.d.ts.map",
+        "size": 1087,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xai.js",
+        "size": 872,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xai.js.map",
+        "size": 1627,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xai.models.d.ts",
+        "size": 204,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xai.models.d.ts.map",
+        "size": 682,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xai.models.js",
+        "size": 346,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xai.models.js.map",
+        "size": 734,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-ams.d.ts",
+        "size": 183,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-ams.d.ts.map",
+        "size": 1008,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-ams.js",
+        "size": 733,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-ams.js.map",
+        "size": 1382,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-ams.models.d.ts",
+        "size": 276,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-ams.models.d.ts.map",
+        "size": 794,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-ams.models.js",
+        "size": 418,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-ams.models.js.map",
+        "size": 846,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-cn.d.ts",
+        "size": 181,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-cn.d.ts.map",
+        "size": 997,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-cn.js",
+        "size": 723,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-cn.js.map",
+        "size": 1371,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-cn.models.d.ts",
+        "size": 272,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-cn.models.d.ts.map",
+        "size": 788,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-cn.models.js",
+        "size": 414,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-cn.models.js.map",
+        "size": 840,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-sgp.d.ts",
+        "size": 183,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-sgp.d.ts.map",
+        "size": 1008,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-sgp.js",
+        "size": 733,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-sgp.js.map",
+        "size": 1382,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-sgp.models.d.ts",
+        "size": 276,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-sgp.models.d.ts.map",
+        "size": 794,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-sgp.models.js",
+        "size": 418,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi-token-plan-sgp.models.js.map",
+        "size": 846,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi.d.ts",
+        "size": 156,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi.d.ts.map",
+        "size": 848,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi.js",
+        "size": 590,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi.js.map",
+        "size": 1212,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi.models.d.ts",
+        "size": 216,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi.models.d.ts.map",
+        "size": 700,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi.models.js",
+        "size": 358,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/xiaomi.models.js.map",
+        "size": 752,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai-coding-cn.d.ts",
+        "size": 168,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai-coding-cn.d.ts.map",
+        "size": 934,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai-coding-cn.js",
+        "size": 667,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai-coding-cn.js.map",
+        "size": 1306,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai-coding-cn.models.d.ts",
+        "size": 244,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai-coding-cn.models.d.ts.map",
+        "size": 744,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai-coding-cn.models.js",
+        "size": 386,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai-coding-cn.models.js.map",
+        "size": 796,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai.d.ts",
+        "size": 150,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai.d.ts.map",
+        "size": 826,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai.js",
+        "size": 571,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai.js.map",
+        "size": 1186,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai.models.d.ts",
+        "size": 204,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai.models.d.ts.map",
+        "size": 682,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai.models.js",
+        "size": 346,
+        "mode": 420
+      },
+      {
+        "path": "dist/providers/zai.models.js.map",
+        "size": 734,
+        "mode": 420
+      },
+      {
+        "path": "dist/session-resources.d.ts",
+        "size": 290,
+        "mode": 420
+      },
+      {
+        "path": "dist/session-resources.d.ts.map",
+        "size": 1060,
+        "mode": 420
+      },
+      {
+        "path": "dist/session-resources.js",
+        "size": 640,
+        "mode": 420
+      },
+      {
+        "path": "dist/session-resources.js.map",
+        "size": 1462,
+        "mode": 420
+      },
+      {
+        "path": "dist/types.d.ts",
+        "size": 43528,
+        "mode": 420
+      },
+      {
+        "path": "dist/types.d.ts.map",
+        "size": 66392,
+        "mode": 420
+      },
+      {
+        "path": "dist/types.js",
+        "size": 44,
+        "mode": 420
+      },
+      {
+        "path": "dist/types.js.map",
+        "size": 46279,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/abort-signals.d.ts",
+        "size": 248,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/abort-signals.d.ts.map",
+        "size": 1547,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/abort-signals.js",
+        "size": 1088,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/abort-signals.js.map",
+        "size": 2583,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/abort.d.ts",
+        "size": 454,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/abort.d.ts.map",
+        "size": 1850,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/abort.js",
+        "size": 1551,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/abort.js.map",
+        "size": 3036,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/assistant-message-frame.d.ts",
+        "size": 2150,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/assistant-message-frame.d.ts.map",
+        "size": 22637,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/assistant-message-frame.js",
+        "size": 19777,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/assistant-message-frame.js.map",
+        "size": 38005,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/diagnostics.d.ts",
+        "size": 834,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/diagnostics.d.ts.map",
+        "size": 2327,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/diagnostics.js",
+        "size": 964,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/diagnostics.js.map",
+        "size": 2629,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/error-body.d.ts",
+        "size": 1291,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/error-body.d.ts.map",
+        "size": 7365,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/error-body.js",
+        "size": 5811,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/error-body.js.map",
+        "size": 10192,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/estimate.d.ts",
+        "size": 1029,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/estimate.d.ts.map",
+        "size": 5312,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/estimate.js",
+        "size": 3750,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/estimate.js.map",
+        "size": 8233,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/event-stream.d.ts",
+        "size": 880,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/event-stream.d.ts.map",
+        "size": 4090,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/event-stream.js",
+        "size": 2940,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/event-stream.js.map",
+        "size": 6219,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/hash.d.ts",
+        "size": 145,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/hash.d.ts.map",
+        "size": 764,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/hash.js",
+        "size": 595,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/hash.js.map",
+        "size": 1564,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/headers.d.ts",
+        "size": 295,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/headers.d.ts.map",
+        "size": 1019,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/headers.js",
+        "size": 518,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/headers.js.map",
+        "size": 1411,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/json-parse.d.ts",
+        "size": 701,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/json-parse.d.ts.map",
+        "size": 3603,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/json-parse.js",
+        "size": 3312,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/json-parse.js.map",
+        "size": 6238,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/node-http-proxy.d.ts",
+        "size": 373,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/node-http-proxy.d.ts.map",
+        "size": 4918,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/node-http-proxy.js",
+        "size": 4420,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/node-http-proxy.js.map",
+        "size": 9815,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/overflow.d.ts",
+        "size": 3847,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/overflow.d.ts.map",
+        "size": 11039,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/overflow.js",
+        "size": 10281,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/overflow.js.map",
+        "size": 12985,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/pi-user-agent.d.ts",
+        "size": 93,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/pi-user-agent.d.ts.map",
+        "size": 902,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/pi-user-agent.js",
+        "size": 525,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/pi-user-agent.js.map",
+        "size": 1329,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/provider-env.d.ts",
+        "size": 343,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/provider-env.d.ts.map",
+        "size": 2148,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/provider-env.js",
+        "size": 1696,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/provider-env.js.map",
+        "size": 3131,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/provider-retry.d.ts",
+        "size": 712,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/provider-retry.d.ts.map",
+        "size": 4734,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/provider-retry.js",
+        "size": 3963,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/provider-retry.js.map",
+        "size": 7959,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/retry.d.ts",
+        "size": 3482,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/retry.d.ts.map",
+        "size": 10780,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/retry.js",
+        "size": 7749,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/retry.js.map",
+        "size": 13633,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/sanitize-unicode.d.ts",
+        "size": 951,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/sanitize-unicode.d.ts.map",
+        "size": 1451,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/sanitize-unicode.js",
+        "size": 1204,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/sanitize-unicode.js.map",
+        "size": 1526,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/sleep.d.ts",
+        "size": 114,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/sleep.d.ts.map",
+        "size": 669,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/sleep.js",
+        "size": 478,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/sleep.js.map",
+        "size": 1104,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/text.d.ts",
+        "size": 883,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/text.d.ts.map",
+        "size": 2174,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/text.js",
+        "size": 1421,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/text.js.map",
+        "size": 3016,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/transcript.d.ts",
+        "size": 5006,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/transcript.d.ts.map",
+        "size": 11762,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/transcript.js",
+        "size": 8546,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/transcript.js.map",
+        "size": 16632,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/typebox-helpers.d.ts",
+        "size": 631,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/typebox-helpers.d.ts.map",
+        "size": 1281,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/typebox-helpers.js",
+        "size": 724,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/typebox-helpers.js.map",
+        "size": 1358,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/uuid.d.ts",
+        "size": 187,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/uuid.d.ts.map",
+        "size": 2191,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/uuid.js",
+        "size": 2045,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/uuid.js.map",
+        "size": 4644,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/validation.d.ts",
+        "size": 834,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/validation.d.ts.map",
+        "size": 11380,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/validation.js",
+        "size": 10615,
+        "mode": 420
+      },
+      {
+        "path": "dist/utils/validation.js.map",
+        "size": 21486,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 2713,
+        "mode": 420
+      }
+    ],
+    "entryCount": 772,
+    "bundled": []
+  }
+]
