@@ -16,7 +16,9 @@ This brooksmcmillin-owned distribution is an interim dependency-security artifac
 
 Use `https://raw.githubusercontent.com/brooksmcmillin/pi-runtime-security/<reviewed-commit>/artifacts/pi-coding-agent-0.87.1-security.tgz`. The payload exactly matches the tested npm pack integrity in `provenance/patched-npm-pack.json`.
 
-Do not use GitHub's repository source archive as an npm dependency: npm ignored its shrinkwrap and resolved newer transitive packages during integration. The actual npm tarball has the required `package/npm-shrinkwrap.json` layout. Re-resolve consumers in a clean temporary dependency factory when changing same-version sources; compare the resulting graph before adopting it, since old nested lock entries may otherwise persist.
+Do not use GitHub's repository source archive as an npm dependency. The actual npm tarball preserves the exact tested payload and `package/npm-shrinkwrap.json` layout, but npm 11 remote-tarball manifests also omit the registry's shrinkwrap metadata. Fresh resolution of either transport broadened transitive versions; the tarball alone does not promise a frozen install graph.
+
+For existing consumers, change the source while retaining the reviewed root lock, run `npm install --ignore-scripts`, then `npm update brace-expansion --package-lock-only --ignore-scripts`. Compare all name/version pairs and integrity before accepting the generated lock; finally run `npm ci --ignore-scripts`, audit, and actual consumer/bundle tests. This kept the scheduled consumer's graph unchanged except brace 5.0.9 → 5.0.12; inbox additionally deduplicated old nested Node types into its unchanged root types. No shrinkwrap flags or version/integrity fields were manually falsified. A new consumer needs its own reviewed root lock and compatibility qualification.
 
 ## Reproduce
 
