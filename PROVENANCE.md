@@ -10,7 +10,7 @@ This brooksmcmillin-owned distribution is an interim dependency-security artifac
 - Patch: scoped `minimatch@10.2.6` override to `brace-expansion@5.0.12`, with root lock, official coding-agent shrinkwrap, and install lock updated. No Pi source/runtime API edits or version upgrade.
 - Published CLI bundles brace expansion, so **a shrinkwrap-only edit is insufficient**. This artifact rebuilds the actual bundle as well as fixing the installed dependency graph (GHSA-6j4f-fj2g-mc7p, GHSA-qhr7-859c-m2p7, GHSA-q2hr-2g5m-vwhr).
 - Gitignored model data was restored from the exact published `@earendil-works/pi-ai@0.87.1`, then validated against the pinned source's manifest/structure. No live model-catalog regeneration. Original npm pack metadata and rebuilt pack integrity are in `provenance/`.
-- Original upstream license/copyright retained in `LICENSE`. Original upstream README/docs describe Pi itself, not this unofficial artifact's release status.
+- Original upstream license/copyright retained in repository `LICENSE` and npm payload `package/LICENSE`. The initial payload omitted that notice; the license-only repack adds it without changing any previously packaged file. Original upstream README/docs describe Pi itself, not this unofficial artifact's release status.
 
 ## Consumer transport
 
@@ -37,6 +37,8 @@ tar -xzf .scratchpad/earendil-works-pi-ai-0.87.1.tgz --strip-components=3 \
 npm run check:model-data
 npm run build:offline
 npm run check
+# npm pack does not inherit the monorepo's root license into a workspace package.
+cp LICENSE packages/coding-agent/LICENSE
 npm pack --workspace @earendil-works/pi-coding-agent --ignore-scripts \
   --json --pack-destination .scratchpad
 ```
@@ -44,6 +46,8 @@ npm pack --workspace @earendil-works/pi-coding-agent --ignore-scripts \
 Use a machine-appropriate memory cap for build/check/tests. On the development host, these commands ran through infra `scripts/heavy-safe --profile pytest-focused`. Official generators verify shrinkwrap/install-lock consistency; they were not manually falsified. Extract the final package into a clean distribution tree so superseded hashed bundle chunks do not remain. Preserve this provenance, verifier, source patch, and upstream license.
 
 ## Verification
+
+The original rebuild qualification below predates the license-only repack. The repair's static verification confirms the payload adds only `package/LICENSE`, exactly matching the retained upstream notice; all 1,108 previous archive entries retain their bytes and modes. `provenance/patched-npm-pack.json` records the regenerated npm pack integrity. The repaired tarball was independently installed with lifecycle scripts disabled: the installed MIT notice, brace dependency/bundled resolver probes, CLI version/help, and zero-vulnerability npm audit pass. Re-run consumer checks when adopting the new immutable payload; do not reuse the old integrity.
 
 - Official offline build and full `npm run check` pass, including types, entry graphs, pinned/runtime dependencies, shrinkwrap/install lock, and browser smoke.
 - 174 scoped upstream model-resolver/package-manager tests pass; no real provider calls.

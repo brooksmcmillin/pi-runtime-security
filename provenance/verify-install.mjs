@@ -7,6 +7,9 @@ import { resolveModelScopeWithDiagnostics } from "./node_modules/@earendil-works
 const packageRoot = new URL("./node_modules/@earendil-works/pi-coding-agent/", import.meta.url);
 const requirePi = createRequire(new URL("package.json", packageRoot));
 assert.equal(JSON.parse(readFileSync(new URL("package.json", packageRoot))).version, "0.87.1");
+const license = readFileSync(new URL("LICENSE", packageRoot), "utf8");
+assert.ok(license.startsWith("MIT License\n\nCopyright (c) 2025 Mario Zechner\n"));
+assert.ok(license.includes("The above copyright notice and this permission notice shall be included"));
 assert.equal(JSON.parse(readFileSync(requirePi.resolve("brace-expansion/package.json"))).version, "5.0.12");
 const { expand } = requirePi("brace-expansion");
 assert.deepEqual(expand("a{b,c}d"), ["abd", "acd"]);
@@ -35,4 +38,4 @@ for (const [name, pattern] of [
   assert.equal(result.scopedModels.length, 0);
   console.log(`PASS bundled resolver ${name}`);
 }
-console.log("PASS patched installed dependency, all bundled guards, ordinary model scoping; no provider calls.");
+console.log("PASS upstream MIT notice, patched installed dependency, all bundled guards, ordinary model scoping; no provider calls.");

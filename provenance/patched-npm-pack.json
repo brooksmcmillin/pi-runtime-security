@@ -3,15 +3,20 @@
     "id": "@earendil-works/pi-coding-agent@0.87.1",
     "name": "@earendil-works/pi-coding-agent",
     "version": "0.87.1",
-    "size": 7328782,
-    "unpackedSize": 23148942,
-    "shasum": "e50d2948e16d157f441e997ce1505ee061e0a37b",
-    "integrity": "sha512-YjohmgcMaMmFPBi8scdGrfYUFr7zkE99aEMc1cPWncHq0DWsHI/7R4MqavmKMMLnS/dym3SS2oc45TEh4ntHdg==",
+    "size": 7328948,
+    "unpackedSize": 23150011,
+    "shasum": "1e2317c9ecf76b5315d4324c0f3fed3e06b786cc",
+    "integrity": "sha512-Zg/XldC5rWEVRwu+U09Ad0ARn634QKOEj+yuLZGRf+BWi++q3GwJwaww4FuHK2eiiBfctBUsJd8thfSq3y16TA==",
     "filename": "earendil-works-pi-coding-agent-0.87.1.tgz",
     "files": [
       {
         "path": "CHANGELOG.md",
         "size": 576138,
+        "mode": 420
+      },
+      {
+        "path": "LICENSE",
+        "size": 1069,
         "mode": 420
       },
       {
@@ -5550,7 +5555,7 @@
         "mode": 420
       }
     ],
-    "entryCount": 1108,
+    "entryCount": 1109,
     "bundled": []
   }
 ]
